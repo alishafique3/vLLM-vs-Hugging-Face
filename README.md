@@ -30,6 +30,9 @@ Offline inference—such as batch generation, document processing, or static con
 *IFT = Inference Time*
 
 ---
+![vllm_vs_hf_inference_comparison (1)](https://github.com/user-attachments/assets/e5bc3b6a-34b9-40f9-84b6-0e4e21103c60)
+
+---
 
 ### 🔍 Key Takeaways
 
