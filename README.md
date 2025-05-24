@@ -7,7 +7,7 @@ Offline inference—such as batch generation, document processing, or static con
 
 ---
 
-### 💻 Experiment Setup
+### Experiment Setup
 
 - **Model**: `meta-llama/Llama-3.2-3B-Instruct`
 - **Hardware**: NVIDIA L4 GPU on Google Vertex AI Workbench
@@ -18,7 +18,7 @@ Offline inference—such as batch generation, document processing, or static con
 
 ---
 
-### 📊 Benchmark Results
+### Benchmark Results
 
 | Batch Size | vLLM (sec) | Hugging Face (sec) |
 |------------|------------|--------------------|
@@ -34,7 +34,7 @@ Offline inference—such as batch generation, document processing, or static con
 
 ---
 
-### 🔍 Key Takeaways
+### Key Takeaways
 
 - **vLLM is 2–4× faster** than Hugging Face on batch workloads.
 - Uses **PagedAttention** to optimize KV cache memory.
@@ -43,7 +43,7 @@ Offline inference—such as batch generation, document processing, or static con
 
 ---
 
-### ✅ Conclusion
+### Conclusion
 
 If you're running **production-scale, high-throughput offline generation**, vLLM offers **superior performance and efficiency** over the default Hugging Face inference stack.
 
