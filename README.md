@@ -5,7 +5,7 @@ Offline inference—such as batch generation, document processing, or static con
 - **Hugging Face Transformers**
 - **[vLLM](https://github.com/vllm-project/vllm)** (optimized engine with PagedAttention)
 
----
+
 
 ### Experiment Setup
 
@@ -16,7 +16,7 @@ Offline inference—such as batch generation, document processing, or static con
   - `transformers==4.47.1`
   - `vllm` (latest stable)
 
----
+
 
 ### Benchmark Results
 
@@ -29,10 +29,10 @@ Offline inference—such as batch generation, document processing, or static con
 
 *IFT = Inference Time*
 
----
+
 ![vllm_vs_hf_inference_comparison (1)](https://github.com/user-attachments/assets/e5bc3b6a-34b9-40f9-84b6-0e4e21103c60)
 
----
+
 
 ### Key Takeaways
 
@@ -41,7 +41,7 @@ Offline inference—such as batch generation, document processing, or static con
 - Better **scalability and GPU utilization** for large-scale offline inference.
 - Hugging Face offers more flexibility for research and prototyping.
 
----
+
 
 ### Conclusion
 
