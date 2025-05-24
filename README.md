@@ -2,8 +2,8 @@
 
 Offline inference—such as batch generation, document processing, or static content creation—demands high throughput and cost efficiency. This benchmark compares two leading frameworks:
 
-- 🤗 **Hugging Face Transformers**
-- ⚡ **[vLLM](https://github.com/vllm-project/vllm)** (optimized engine with PagedAttention)
+- **Hugging Face Transformers**
+- **[vLLM](https://github.com/vllm-project/vllm)** (optimized engine with PagedAttention)
 
 ---
 
