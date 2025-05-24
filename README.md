@@ -7,13 +7,11 @@ Offline inference—such as batch generation, document processing, or static con
 
 ---
 
-### 🧪 Experiment Setup
+### 💻 Experiment Setup
 
-- **Model**: `mistralai/Mistral-7B-Instruct-v0.2`
+- **Model**: `meta-llama/Llama-3.2-3B-Instruct`
 - **Hardware**: NVIDIA L4 GPU on Google Vertex AI Workbench
-- **Precision**: bfloat16 (no quantization)
 - **Batch Sizes**: 4, 8, 16, 32
-- **Prompts**: 100 total, max new tokens: 100
 - **Libraries**:
   - `transformers==4.47.1`
   - `vllm` (latest stable)
