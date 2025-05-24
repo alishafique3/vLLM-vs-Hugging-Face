@@ -13,6 +13,7 @@ Offline inference—such as batch generation, document processing, or static con
 - **Hardware**: NVIDIA L4 GPU on Google Vertex AI Workbench
 - **Batch Sizes**: 4, 8, 16, 32
 - **Libraries**:
+  - Python: 3.10 (managed via Conda environment) 
   - `transformers==4.47.1`
   - `vllm` (latest stable)
 
