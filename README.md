@@ -47,3 +47,11 @@ Offline inference—such as batch generation, document processing, or static con
 
 If you're running **production-scale, high-throughput offline generation**, vLLM offers **superior performance and efficiency** over the default Hugging Face inference stack.
 
+### References:
+- vLLM: https://docs.vllm.ai/en/latest/
+- Medium Article: How does vLLM optimize the LLM serving system? | by Natthanan Bhukan | CJ Express Tech (TILDI) | Medium
+- YouTube Video: https://www.youtube.com/watch?v=80bIUggRJf4
+- Paper: https://arxiv.org/abs/2309.06180
+- Blog: https://blog.vllm.ai/2023/06/20/vllm.html
+- Medium Article: https://medium.com/@zaiinn440/autoregressive-models-for-natural-language-processing-b95e5f933e1f
+
