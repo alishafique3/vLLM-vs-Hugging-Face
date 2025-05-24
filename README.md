@@ -1,4 +1,4 @@
-# vLLM vs. Hugging Face for High-Performance Offline LLM Inference
+# vLLM vs Hugging Face for High-Performance Offline LLM Inference
 
 Offline inference—such as batch generation, document processing, or static content creation—demands high throughput and cost efficiency. This benchmark compares two leading frameworks:
 
